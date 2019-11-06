@@ -1,0 +1,23 @@
+.card {
+    border: none !important;
+}
+
+.card-body{
+    background-color: lightskyblue;
+    border-radius: 5px;
+}
+
+.search-list{
+    background-color: lightcyan;
+    border-radius: 5px;
+}
+
+.saveBook {
+    border-radius: 5px;
+    margin-left: 10px
+}
+
+.viewBook {
+    border-radius: 5px;
+    margin-left: 5px
+}

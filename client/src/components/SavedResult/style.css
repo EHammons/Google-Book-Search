@@ -1,0 +1,17 @@
+.card{
+    background-color: lightcyan;
+}
+
+.saved-list{
+    background-color: lightskyblue;
+}
+
+.deleteBook {
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.viewBook {
+    border-radius: 5px;
+    margin-left: 5px;
+}

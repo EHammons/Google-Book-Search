@@ -4,8 +4,9 @@ import Nav from "./components/Nav";
 import Search from "./pages/Search";
 import Saved from "./pages/Saved";
 import NoMatch from "./pages/NoMatch";
+import "./App.css"
 
-function App () {
+function App() {
   return (
     <Router>
       <div>
@@ -14,6 +15,7 @@ function App () {
           <Route exact path="/" component={Search} />
           <Route exact path="/search" component={Search} />
           <Route exact path="/saved" component={Saved} />
+          <Route exact path="/saved/:id" component={Saved} />
           <Route component={NoMatch} />
         </Switch>
       </div>
